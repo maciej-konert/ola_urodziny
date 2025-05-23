@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         announcement.classList.add('show');
         
         // Update the title
-        title.textContent = '🎉 SURPRISE! 🎉';
+        title.textContent = '🎉 NIESPODZIANKA! 🎉';
         
         // Create confetti explosion
         createConfetti();
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } catch(e) {}
         
         // Change button text
-        button.textContent = '🎊 More Confetti! 🎊';
+        button.textContent = '🎊 Więcej konfetti! 🎊';
         
         // Continue creating confetti for a while
         let confettiInterval = setInterval(() => {
